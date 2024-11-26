@@ -42,29 +42,29 @@
 
 В качестве используемых для мониторинга хостов использую две отдельных виртуальных машины. Выполняю действия ниже на обеих виртуалках.
 
-1. Установка репозитория Zabbix
-*wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu24.04_all.deb*
-*dpkg -i zabbix-release_latest+ubuntu24.04_all.deb*
-*apt update*
+1. Установка репозитория Zabbix  
+*wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu24.04_all.deb*  
+*dpkg -i zabbix-release_latest+ubuntu24.04_all.deb*  
+*apt update*  
 
-2. Установка Zabbix агента
+2. Установка Zabbix агента  
 *apt install zabbix-agent*
 
-3. Правка конфига с указанием сервера, с которого агент допускает подключениу
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img002.png)
+3. Правка конфига с указанием сервера, с которого агент допускает подключениу  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img002.png)  
 
-4. Рестарт службы агента для применения изменений в конфиге
-*systemctl restart zabbix-agent*
+4. Рестарт службы агента для применения изменений в конфиге  
+*systemctl restart zabbix-agent*  
 
-Скриншот раздела Configuration > Hosts
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img003.png)
+Скриншот раздела Configuration > Hosts  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img003.png)  
 
-Скриншот лога zabbix agent
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img004.png)
+Скриншот лога zabbix agent  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img004.png)  
 
-Скриншот раздела Monitoring > Latest data
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img005.png)
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img006.png)
+Скриншот раздела Monitoring > Latest data  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img005.png)  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img006.png)  
 
 
 
