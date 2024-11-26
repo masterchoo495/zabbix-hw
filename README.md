@@ -64,6 +64,7 @@
 
 Скриншот раздела Monitoring > Latest data  
 ![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img005.png)  
+
 ![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img006.png)  
 
 
