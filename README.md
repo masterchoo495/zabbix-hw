@@ -51,20 +51,21 @@
 *apt install zabbix-agent*
 
 3. Правка конфига с указанием сервера, с которого агент допускает подключение  
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img002.png)  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img003.png)  
 
 4. Рестарт службы агента для применения изменений в конфиге  
 *systemctl restart zabbix-agent*  
 
 Скриншот раздела Configuration > Hosts  
-![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img003.png)  
+![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img002.png)  
 
 Скриншот лога zabbix agent  
 ![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img004.png)  
 
-Скриншот раздела Monitoring > Latest data  
+Скриншот раздела Monitoring > Latest data для первого хоста
 ![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img005.png)  
 
+Скриншот раздела Monitoring > Latest data для второго хоста
 ![alt text](https://github.com/masterchoo495/zabbix-hw/blob/main/img/img006.png)  
 
 
